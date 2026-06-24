@@ -12,7 +12,7 @@ Document owner: Project Lead / CTO · Version 1.0 · June 2026
 **Why now.** Nigeria runs on unreliable, expensive power. Students, commuters and small businesses constantly need to charge devices and have nowhere safe, cheap and available to do it. The team has *already built and won awards with the core product* and *already runs a CAC-registered energy company* — the gap is commercialisation, not invention.
 
 **The unfair advantage.** Three de-risking assets already exist in-house:
-1. A working, award-winning **smart-outlet + web platform** prototype (NSE Babafunso GEOTY 2020, 3rd; *SSRG IJEEE* 2021 publication).
+1. A working, award-winning **smart-outlet + web platform** prototype.
 2. A working **IoT hybrid power transition controller (HPTS)** — auto grid↔generator switching in 0.15 s, built by two of the founders.
 3. A **registered company** with a business plan, brand and grant-readiness groundwork.
 
@@ -78,7 +78,7 @@ Re-use the prototype's tiered model (already built), renamed for a public audien
 
 ---
 
-## 3. Technical architecture (summary — full detail in doc 02)
+## 3. Technical architecture (summary )
 
 ```
         ┌─────────────────────── ENERGY LAYER (HPTS) ───────────────────────┐
@@ -168,7 +168,7 @@ Bottom-up: (target sites in SW Nigeria) × (outlets/site) × (sessions/outlet/da
 
 ## 7. Cost analysis (pilot station bill-of-materials, re-priced 2026)
 
-Derived from the team's 2021 paper (Table III) plus current Nigerian market reality. **FX assumption: ₦1,580/$.** Treat as a planning budget to be confirmed by quotes.
+Treat as a planning budget to be confirmed by quotes.
 
 | Item | Spec / basis | Est. cost (₦) |
 |------|--------------|---------------|
@@ -225,8 +225,8 @@ Derived from the team's 2021 paper (Table III) plus current Nigerian market real
 **Why UI (justification):**
 - **Secure & access-controlled** campus → low vandalism risk, reliable attendant presence.
 - **Consistent, dense demand** → 30,000+ device-dependent students/staff; frequent power gaps.
-- **Team home-ground** → founders are UI Electrical/Electronic Engineering alumni; existing faculty relationships ease siting, support and credibility (the 2021 paper is UI-affiliated).
-- **Documented solar resource** → ~5 kWh/m²/day GHI for Ibadan (team's own paper) → solar-first economics work.
+- **Team home-ground** → founders are UI Electrical/Electronic Engineering alumni; existing faculty relationships ease siting, support and credibility.
+- **Documented solar resource** → ~5 kWh/m²/day GHI for Ibadan  → solar-first economics work.
 - **Scalable template** → succeed at one faculty/hall, replicate across halls of residence, library, faculties, then to other campuses.
 
 **Pilot structure:**
@@ -260,7 +260,7 @@ Derived from the team's 2021 paper (Table III) plus current Nigerian market real
 3. **M6–M12:** angel / convertible note (₦20–60M) → 3–5 station network + first hires, *triggered by pilot evidence*.
 4. **M18+:** blended/project finance + climate grant for multi-site rollout.
 
-**Data-room (build now — doc 08):** CAC cert, TIN, status report, founder CVs, business plan, this blueprint, financial model (3-scenario, 5-yr — *to build*), technical architecture, pilot results, IP/assignment docs, cap table, M&E framework.
+**Data-room (build now ):** CAC cert, TIN, status report, founder CVs, business plan, this blueprint, financial model (3-scenario, 5-yr — *to build*), technical architecture, pilot results, IP/assignment docs, cap table, M&E framework.
 
 **What investors will test:** real demand (doc 04 evidence), unit economics, team's ability to execute (already shown via working product + publication), and a credible path beyond one station.
 
@@ -268,7 +268,7 @@ Derived from the team's 2021 paper (Table III) plus current Nigerian market real
 
 ## 13. Grant readiness strategy
 
-The company's `GRANT_READINESS.md` already maps ZE-Gen-style criteria; the ChargeHub satisfies them concretely:
+The company already maps ZE-Gen-style criteria; the ChargeHub satisfies them concretely:
 
 - ✅ **Direct fossil-fuel (diesel/generator) displacement** — solar-first logic minimises generator runtime.
 - ✅ **Safe, flexible, affordable, reliable, low-carbon** — all four are explicit design goals.
@@ -307,7 +307,7 @@ This sequence matches lean-startup practice and the company's own "specificity o
 
 ---
 
-## 16. Regulatory considerations (summary — detail in doc 08)
+## 16. Regulatory considerations (summary)
 - **Electricity licensing:** a single ≤100 kW behind-the-meter solar+storage system on private/institutional land typically falls under **captive/embedded generation** and does not need a NERC generation licence — *confirm with counsel and current EA 2023 / state regulations before energising.*
 - **Electrical safety & standards:** install to NEMSA/IEE wiring standards; RCD/earthing/SPD; certified electrician sign-off; periodic inspection.
 - **Payments & data:** comply with CBN payment rules (use licensed gateways) and NDPR (Nigeria Data Protection) for user data.
@@ -356,7 +356,7 @@ This sequence matches lean-startup practice and the company's own "specificity o
 **Month 6 — Evidence, raise, plan v2**
 - Publish pilot results + impact (kWh, diesel displaced, CO₂, users served).
 - Close grant/accelerator outcome; open angel/convertible conversations.
-- Lock the 12-month scaling plan (§11) and budget.
+- Lock the 12-month scaling plan  and budget.
 
 ### Gantt (textual)
 ```
@@ -392,11 +392,3 @@ Results + fundraise                                   ██  ███
 | Funding | Grant/accelerator submitted; MoU signed | ≥ 1 each |
 | Satisfaction | NPS | ≥ +30 |
 
----
-
-## 19. Appendix — provenance of claims
-- Smart-outlet design, PIN scheme, metering, tariff/LCC/carbon economics: *Olufajo, Ogundipe, Atanda, Fakolujo — "Sustainable Smart Power Outlet Controller with Online Energy Management System for Public Charging Stations," SSRG IJEEE 8(5):16–23, 2021.*
-- Award: *Design & Prototype Implementation of Smart Power Outlets with an Online Management System — NSE Babafunso Graduate Engineer of the Year, 3rd, Aug 2020.*
-- HPTS switching performance (3.8 s gen start, 0.15 s transfer, 95.2% efficiency): *First draft — IoT-Based Hybrid Power Transition Controller for Automated Source Switching* (team document).
-- Company registration, vision/mission, units, grant-readiness: *Limitless Power Solution Concepts* business plan + `docs/` (BUSINESS_STRUCTURE, GRANT_READINESS) + brand site.
-- Smart-meter expansion path: *Limitless Team — Lagos Smart Meter Hackathon 2020* submission.
