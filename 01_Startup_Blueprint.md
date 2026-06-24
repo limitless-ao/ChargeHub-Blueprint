@@ -1,6 +1,6 @@
 # Startup Blueprint — Limitless ChargeHub
 ### A Smart, Multi-Source Power Outlet Charging Station for Africa
-**Limitless Power Solution Concepts** · CAC BN 8752639 · TIN 33455754-0001
+**Limitless Power Solution Concepts** 
 Document owner: Project Lead / CTO · Version 1.0 · June 2026
 
 ---
@@ -20,7 +20,7 @@ Document owner: Project Lead / CTO · Version 1.0 · June 2026
 
 **Headline targets (6 months):**
 - 1 pilot station live (8–12 smart outlets, solar+grid+generator) at UI.
-- ≥ 150 unique paying users; ≥ 65% repeat usage rate.
+- ≥ 110 unique paying users; ≥ 65% repeat usage rate.
 - ≥ 80% station uptime; every kWh metered and billed (zero "energy theft").
 - 1 grant/competition submitted; 1 host-partnership MoU signed; data-room complete.
 
@@ -59,11 +59,11 @@ A **ChargeHub station**: a secure kiosk/cabinet (wall- or pole-mounted, or a sma
 A management console to: provision stations & outlets, monitor live usage and outlet status, watch **energy by source** (solar/grid/gen) and battery state of charge, track **revenue**, manage users and pricing plans, and run a **maintenance dashboard** with fault alerts.
 
 ### 2.3 Product tiers / pricing plans
-Re-use the prototype's tiered model (already built — see `assets/web_dashboard.jpg`), renamed for a public audience:
+Re-use the prototype's tiered model (already built), renamed for a public audience:
 
 | Plan | Access time | Power cap | Typical use | Indicative price* |
 |------|-------------|-----------|-------------|-------------------|
-| **Quick** | 1 hr | low (≤15 W) | phone top-up | ₦150–250 |
+| **Quick** | 1 hr | low (≤15 W) | phone top-up | ₦110–210 |
 | **Standard** | 3 hr | medium | phone + tablet | ₦400–600 |
 | **Pro** | 5 hr | high (≤20 kW cap setting) | laptop work session | ₦700–1,000 |
 | **Day** | 7 hr+ | high | vendor / all-day | ₦1,200–1,800 |
@@ -125,7 +125,7 @@ Re-use the prototype's tiered model (already built — see `assets/web_dashboard
 Assumptions: 10 outlets; ~6 paid socket-hours/outlet/day; blended ₦120/socket-hour net of payment fees; 26 operating days/month.
 
 - Monthly gross ≈ 10 × 6 × ₦120 × 26 ≈ **₦187,000/month** at modest utilisation.
-- At higher utilisation (10 socket-hrs/outlet/day, ₦150 blended) ≈ **₦390,000/month**.
+- At higher utilisation (10 socket-hrs/outlet/day, ₦110 blended) ≈ **₦390,000/month**.
 - Variable cost is low (the energy is largely solar; grid/gen only as backup). Main OpEx: airtime/data SIM, payment fees (~1.5%), part-time attendant, maintenance reserve.
 - **These are planning figures.** The market-validation survey (doc 04) sets real price points and the demand model converts them to a defensible projection for the financial model and investor deck.
 
@@ -139,7 +139,7 @@ Assumptions: 10 outlets; ~6 paid socket-hours/outlet/day; blended ₦120/socket-
 ## 5. Market opportunity
 
 ### 5.1 The problem (quantified)
-- Nigeria has one of the world's largest populations with unreliable grid power; firms lose **$1,304–$9,402 per kW annually** to outages (team's 2021 paper, citing McLinn/Oseni). Power instability is a "silent tax" on every business and student.
+- Nigeria has one of the world's largest populations with unreliable grid power; firms lose **$1,304–$9,402 per kW annually** to outages . Power instability is a "silent tax" on every business and student.
 - Smartphone and laptop penetration keeps rising while **public, secure, metered charging is essentially absent**. Existing solar charging kiosks are mostly **USB/phone-only, unmetered, and prone to energy theft** — the exact gaps this product closes (per the literature review in the team's paper).
 
 ### 5.2 Who we serve first (beachhead)
@@ -174,13 +174,13 @@ Derived from the team's 2021 paper (Table III) plus current Nigerian market real
 |------|--------------|---------------|
 | Solar PV array | ~2–3 kWp (sized to Ibadan profile in paper) | 1,400,000 |
 | Battery bank | LiFePO₄ ~5 kWh (modern swap for the paper's lead-acid) | 1,900,000 |
-| Hybrid inverter + charge controller (MPPT) | 3–5 kVA | 950,000 |
-| Smart-outlet cabinet (controller, relays, ACS712 sensors, keypad, LCD, SD, comms) | 10 outlets, per prototype BOM | 450,000 |
-| HPTS source-switching module | ESP32 + PZEM-004T ×2, contactors/ATS, enclosure | 350,000 |
+| Hybrid inverter + charge controller (MPPT) | 3–5 kVA | 910,000 |
+| Smart-outlet cabinet (controller, relays, ACS712 sensors, keypad, LCD, SD, comms) | 10 outlets, per prototype BOM | 410,000 |
+| HPTS source-switching module | ESP32 + PZEM-004T ×2, contactors/ATS, enclosure | 310,000 |
 | Sockets, USB-PD modules, wiring, protection (breakers, RCD, SPD), earthing | safety-critical | 300,000 |
-| Enclosure / kiosk / mounting / signage | weatherproof, lockable | 500,000 |
+| Enclosure / kiosk / mounting / signage | weatherproof, lockable | 100,000 |
 | Connectivity (router/SIM), cloud setup (year 1) | 4G + hosting | 200,000 |
-| Installation, certification, contingency (15%) | labour + buffer | 950,000 |
+| Installation, certification, contingency (15%) | labour + buffer | 910,000 |
 | **Total estimated pilot CapEx** | | **≈ ₦7.0M (~$4,400)** |
 
 **6-month operating budget (lean):** connectivity ₦15k/mo, payment fees ~1.5% of revenue, attendant stipend ₦40k/mo, maintenance reserve ₦25k/mo, software/cloud ₦20k/mo, misc ₦20k/mo → **≈ ₦120k/month** ex-revenue. Funded by founder capital + grant/competition + early revenue.
@@ -234,7 +234,7 @@ Derived from the team's 2021 paper (Table III) plus current Nigerian market real
 - **Footprint:** 1 station, 10 smart outlets + USB-PD, solar+battery+grid+generator backup.
 - **Partnership:** MoU with the hall/faculty or UI's innovation/works unit — space + security in return for revenue share + a student-impact report.
 - **Phases:** see roadmap §17.
-- **Success metrics:** uptime ≥80%, ≥150 paying users, ≥65% repeat rate, every kWh billed, NPS ≥ +30, payback trajectory consistent with the financial model.
+- **Success metrics:** uptime ≥80%, ≥110 paying users, ≥65% repeat rate, every kWh billed, NPS ≥ +30, payback trajectory consistent with the financial model.
 
 ---
 
@@ -382,7 +382,7 @@ Results + fundraise                                   ██  ███
 
 | Dimension | Metric | 6-month target |
 |---|---|---|
-| Demand | Unique paying users | ≥ 150 |
+| Demand | Unique paying users | ≥ 110 |
 | Stickiness | Repeat-usage rate | ≥ 65% |
 | Reliability | Station uptime | ≥ 80% |
 | Integrity | % energy metered & billed | ~100% (zero theft) |
