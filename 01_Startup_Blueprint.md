@@ -7,7 +7,7 @@ Document owner: Project Lead / CTO · Version 1.0 · June 2026
 
 ## 0. Executive summary
 
-**What we are building.** *ChargeHub* — a secure, solar-first **smart charging station** where people pay (online or on-site) to charge phones, laptops, tablets and other low-power devices through **metered, individually-controlled smart outlets**, backed by an **online booking + payment + monitoring platform** and an **automatic three-source power supply** (solar PV + battery, national grid, generator) that always picks the cheapest available clean energy.
+**What we are building.** *ChargeHub* — a secure, multiple source **smart charging station** where people pay (online or on-site) to charge phones, laptops, tablets and other low-power devices through **metered, individually-controlled smart outlets**, backed by an **online booking + payment + monitoring platform** and an **automatic three-source power supply** (solar PV + battery, national grid, generator) that always picks the cheapest available clean energy.
 
 **Why now.** Nigeria runs on unreliable, expensive power. Students, commuters and small businesses constantly need to charge devices and have nowhere safe, cheap and available to do it. The team has *already built and won awards with the core product* and *already runs a CAC-registered energy company* — the gap is commercialisation, not invention.
 
